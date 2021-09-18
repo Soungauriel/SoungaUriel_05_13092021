@@ -9,11 +9,40 @@
     <title>Accueil-Orinoco</title>
 </head>
 <body>
-    <div class="container mx-auto 1">
-        <header class="center grid">
-            <a href="JWDP5"><img class="logo" src="Orinoco2" alt="Orinoco"></a>
-        </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid mx-2">
+            <a href="JWDP5"><img class="img-fluid mx-4" src="../backend/images/Orinoco2.png" alt="Orinoco"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-4 " id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./html/panier.html" id="basketPreview">Panier</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    
+        </div>
+    </nav>
+    <main>
+        <div class="P-5 mx-5">
+            <h1 class="text-center fs-2">Bienvenue sur Orinoco</h1>
+            <p class="text-center text-lignt">Retrouvez notre sélection d'ours en peluche fait à la main</p>
+        </div>
+    </main>
+   <footer class="bg-light py-4">
+       <ul class="list-inline text-center">
+           <li class="list-inline-item"><a href="index.html"title="Accueil">Accueil</a></li>
+           <li class="list-inline-item"><a href="mailto:contact@orinoco.com ?subject=contact" title="Contact">Contact</a></li>
+           <li class="list-inline-item"><a href="loi" title="Mentions Légales">Mentions Légales</a></li>
+
+       </ul>
+       <p class="copyright text-center">Orinoco 2021</p>
+   </footer>
 </body>
 </html>
