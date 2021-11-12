@@ -1,0 +1,65 @@
+#liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.P-6{
+    width: 320px;
+    border: 1px solid black;
+} 
+.teddiesFigure img{
+    max-width: 100%;
+    
+}body {
+    margin: auto;
+  }
+  header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    background-color: burlywood;
+    height: auto;
+    height: auto;
+  }
+
+.listCorps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px #bababa;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    background-color: #f3e9f1;
+  }
+  footer {
+    
+    background-color: burlywood;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+main {
+    background-color:burlywood; ;
+    margin: auto;
+    padding-bottom: 40px;
+  }
